@@ -606,7 +606,7 @@ section.container.preco-maior:not(.dados-carregados) > * {
 section.container.preco-medio,
 section.container.preco-menor,
 section.container.preco-maior {
-    background-image: url(/imagens/loading.gif);
+    background-image: url('./imagens/loading.gif);
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;    
