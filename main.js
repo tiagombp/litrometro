@@ -217,7 +217,7 @@ new Chart("Chart-js", {
 
 
 function carregarMaterias(numeroContainerNews) {
-  fetch('https://agenciatatu.com.br/wp-json/wp/v2/posts?tags=69,70,64', {mode: 'no-cors'})
+  fetch('https://agenciatatu.com.br/wp-json/wp/v2/posts?tags=69,70,64', {mode: 'cors'})
     .then(response => response.json() )
     .then(data => {
       let tituloMateria = data[numeroContainerNews].title.rendered;
